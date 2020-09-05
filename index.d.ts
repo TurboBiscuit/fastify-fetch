@@ -1,5 +1,10 @@
+import { FastifyPlugin } from "fastify";
+import fetch from "node-fetch";
 declare module "fastify" {
   interface FastifyInstance {
-    fetch: import("node-fetch");
+    fetch: fetch;
   }
 }
+
+declare const fastifyFetch: FastifyPlugin;
+export default fastifyFetch;
