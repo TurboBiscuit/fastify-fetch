@@ -5,7 +5,8 @@
   "main": "index.mjs",
   "keywords": [],
   "dependencies": {
-    "fastify-plugin": "^2.0.0"
+    "fastify-plugin": "^2.0.0",
+    "node-fetch": "^2.6.1"
   },
   "type": "module",
   "author": "",
